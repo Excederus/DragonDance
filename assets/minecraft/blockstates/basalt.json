@@ -1,0 +1,71 @@
+{
+  "variants": {
+    "axis=x": [ {
+      "model": "minecraft:block/basalt/basalt1",
+        "x": 90,
+        "y": 90
+    },
+               {
+      "model": "minecraft:block/basalt/basalt2",
+        "x": 90,
+        "y": 90
+    },
+               {
+      "model": "minecraft:block/basalt/basalt3",
+        "x": 90,
+        "y": 90
+    },
+              {
+      "model": "minecraft:block/basalt/basalt4",
+        "x": 90,
+        "y": 90
+    },
+              {
+      "model": "minecraft:block/basalt/basalt5",
+        "x": 90,
+        "y": 90
+    } ],
+      
+      
+    "axis=y": [ {
+      "model": "minecraft:block/basalt/basalt1"
+    },
+               {
+      "model": "minecraft:block/basalt/basalt2"
+    },
+               {
+      "model": "minecraft:block/basalt/basalt3"
+    },
+              {
+      "model": "minecraft:block/basalt/basalt4"
+    },
+              {
+      "model": "minecraft:block/basalt/basalt5"
+    } ],
+               
+               
+               
+               
+               
+    "axis=z": [ {
+      "model": "minecraft:block/basalt/basalt1",
+      "x": 90
+    },
+               {
+      "model": "minecraft:block/basalt/basalt2",
+      "x": 90
+    },
+               {
+      "model": "minecraft:block/basalt/basalt3",
+      "x": 90
+    },
+              {
+      "model": "minecraft:block/basalt/basalt4",
+      "x": 90
+    },
+              {
+      "model": "minecraft:block/basalt/basalt5",
+      "x": 90
+    }  ]
+  }
+}
