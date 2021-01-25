@@ -1,0 +1,27 @@
+BLOCKS
+	Birch Door Top - Slim down beams
+	Concrete - Apply new texture to all variants
+	Concrete Powder - Rework
+	Campfire - Rework
+	Conduit - Rework on 64x
+	Crimson Stem - Rework
+	Fire - Rework
+	Fire Coral Block - Rework
+	Grindstone Pivot - Rework
+	Horn Coral Block - Rework
+	Iron Trapdoor - Rework
+	Smoker Front On - Rework Fire
+	Stripped Crimson Stem - Rework
+	Stripped Warped Stem - Rework
+	Warped Stem - Rework
+
+Environment
+	Moon - Rework
+	Rain - Rework
+	Sun - Rework
+
+Items
+	Redstone - Remove shadow
+
+Particles
+	A bunch - Rework on 64x
