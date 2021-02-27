@@ -1,7 +1,45 @@
 {
-    "parent": "block/door_bottom",
-    "textures": {
-        "bottom": "block/crimson_door_bottom",
-        "top": "block/crimson_door_top"
-    }
+	"credit": "Made with Blockbench",
+	"parent": "block/door_bottom",
+	"textures": {
+		"bottom": "block/crimson_door_bottom"
+	},
+	"elements": [
+		{
+			"from": [0, 4, 0],
+			"to": [3, 10, 16],
+			"faces": {
+				"north": {"uv": [0, 6, 0.25, 12], "texture": "#bottom"},
+				"east": {"uv": [16, 6, 0, 12], "texture": "#bottom"},
+				"south": {"uv": [15.75, 6, 16, 12], "texture": "#bottom"},
+				"west": {"uv": [0, 6, 16, 12], "texture": "#bottom"},
+				"up": {"uv": [0, 6, 16, 6.25], "texture": "#bottom"},
+				"down": {"uv": [0, 11.75, 16, 12], "texture": "#bottom"}
+			}
+		},
+		{
+			"from": [0.25, 10, 0],
+			"to": [2.75, 16, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 6]},
+			"faces": {
+				"north": {"uv": [0, 0, 0.25, 6], "texture": "#bottom"},
+				"east": {"uv": [16, 0, 0, 6], "texture": "#bottom"},
+				"south": {"uv": [15.75, 0, 16, 6], "texture": "#bottom"},
+				"west": {"uv": [0, 0, 16, 6], "texture": "#bottom"},
+				"down": {"uv": [2.25, 15.75, 2.5, 16], "texture": "#bottom"}
+			}
+		},
+		{
+			"from": [0.25, 0, 0],
+			"to": [2.75, 4, 16],
+			"faces": {
+				"north": {"uv": [0, 12, 0.25, 16], "texture": "#bottom"},
+				"east": {"uv": [16, 12, 0, 16], "texture": "#bottom"},
+				"south": {"uv": [15.75, 12.25, 16, 16], "texture": "#bottom"},
+				"west": {"uv": [0, 12, 16, 16], "texture": "#bottom"},
+				"up": {"uv": [0, 12, 16, 12.25], "texture": "#bottom"},
+				"down": {"uv": [0, 15.75, 16, 16], "rotation": 270, "texture": "#bottom"}
+			}
+		}
+	]
 }

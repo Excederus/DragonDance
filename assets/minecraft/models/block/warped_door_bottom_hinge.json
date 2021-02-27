@@ -1,7 +1,21 @@
 {
-    "parent": "block/door_bottom_rh",
-    "textures": {
-        "bottom": "block/warped_door_bottom",
-        "top": "block/warped_door_top"
-    }
+	"credit": "Made with Blockbench",
+	"parent": "block/door_bottom",
+	"textures": {
+		"bottom": "block/warped_door_bottom"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [3, 16, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [-5, 8, 8]},
+			"faces": {
+				"north": {"uv": [15.75, 0, 16, 16], "texture": "#bottom"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#bottom"},
+				"south": {"uv": [0, 0, 0.25, 16], "texture": "#bottom"},
+				"west": {"uv": [16, 0, 0, 16], "texture": "#bottom"},
+				"down": {"uv": [0, 15.75, 16, 16], "rotation": 90, "texture": "#bottom"}
+			}
+		}
+	]
 }
